@@ -62,11 +62,11 @@
 
 
         <Button
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:text="설명서"
                 android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="15dp"
                 android:textStyle="bold"
@@ -76,13 +76,13 @@
         />
 
         <Button
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:text="A/S"
                 android:textSize="40dp"
                 android:textStyle="bold"
                 android:background="@drawable/grad1"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="15dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="15dp"
@@ -95,41 +95,47 @@
             tools:context=".Main.MainActivity"
             android:orientation="horizontal"
             android:gravity="center_horizontal"
-            android:layout_marginBottom="50dp"
             >
         <Button
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:text="연습"
                 android:background="@drawable/grad1"
                 android:textStyle="bold"
                 android:textSize="40dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
                 android:id="@+id/bt_practice"/>
         <Button
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:text="여행/맛집"
                 android:textStyle="bold"
                 android:textSize="38dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="15dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="15dp"
                 android:background="@drawable/grad1"
                 android:id="@+id/bt_travelandfood"
         />
-
-
-
-
     </LinearLayout>
 
 <!--    <View-->
 <!--            android:layout_width="0dp"-->
 <!--            android:layout_height="0dp"-->
 <!--            android:layout_weight="1" />-->
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/Invisible"
+            android:text="앱 정보"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp"
+            />
 
     <com.google.android.gms.ads.AdView
             android:id="@+id/adView"

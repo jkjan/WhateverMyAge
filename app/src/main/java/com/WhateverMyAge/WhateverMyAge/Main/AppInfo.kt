@@ -17,7 +17,7 @@ class AppInfo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(com.WhateverMyAge.WhateverMyAge.R.layout.activity_app_info)
 
-        val info: PackageInfo = this.packageManager.getPackageInfo(this.packageName, 0)
+        val info: PackageInfo = this.packageManager.getPackageInfo("com.WhateverMyAge.WhateverMyAge", 0)
         val version = info.versionName
         versionNumber.text = "v" + version.toString()
 
@@ -30,7 +30,7 @@ class AppInfo : AppCompatActivity() {
 
         bt_review.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse("market://details?id=$packageName")
+            intent.data = Uri.parse("market://details?id=com.WhateverMyAge.WhateverMyAge")
             startActivity(intent)
         }
     }

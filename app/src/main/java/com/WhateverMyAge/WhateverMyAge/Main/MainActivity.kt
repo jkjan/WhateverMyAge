@@ -68,6 +68,11 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("test", 2)
             startActivity(intent)
         }
+
+        info.setOnClickListener {
+            val intent = Intent(this, AppInfo::class.java)
+            startActivity(intent)
+        }
 //        MobileAds.initialize(this, getString(R.string.admob_app_id))
 //        val extras = Bundle()
 //        extras.putString("max_ad_content_rating", "G") // 앱이 3세 이상 사용가능이라면 광고레벨을 설정해줘야 한다
@@ -100,7 +105,6 @@ class MainActivity : AppCompatActivity() {
                 // Code to be executed when the user clicks on an ad.
 
             }
-
 
             override fun onAdLeftApplication() {
 

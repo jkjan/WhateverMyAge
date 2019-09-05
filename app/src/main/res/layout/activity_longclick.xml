@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:text="어떤 버튼(혹은 사진)은\n꾸욱 누르면 또 다른 기능을 합니다."
             android:textSize="25dp"
-            android:layout_margin="16dp"/>
+            android:layout_margin="10dp"/>
 
     <TextView
             android:id="@+id/textView3"
@@ -55,7 +55,16 @@
             android:layout_height="wrap_content"
             android:text="버튼을 길게 꾹 눌러보세요!"
             android:textSize="25dp"
-            android:layout_margin="16dp"/>
+            android:layout_margin="10dp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/longclick"
+            android:layout_gravity="center"
+            >
+
+    </ImageView>
 
     <Button
             android:textSize="30dp"

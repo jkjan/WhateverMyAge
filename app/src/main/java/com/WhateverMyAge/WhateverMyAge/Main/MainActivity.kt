@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity() {
 //            bt_login.text = "로그인"
 //        else
 //            bt_login.text = "내 정보"
-        num = random.nextInt(27)
+        num = random.nextInt(23)
         quote.text = quotelist[num].Quote
         quotedfrom.text = quotelist[num].QuotedFrom
 

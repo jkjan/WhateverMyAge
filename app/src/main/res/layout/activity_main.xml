@@ -97,7 +97,7 @@
         <Button
                 android:layout_width="165dp"
                 android:layout_height="165dp"
-                android:text="설명서"
+                android:text="앱\n설명서"
                 android:textStyle="bold"
                 android:textSize="40dp"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -121,7 +121,7 @@
         <Button
                 android:layout_width="165dp"
                 android:layout_height="165dp"
-                android:text="연습"
+                android:text="조작법"
                 android:background="@drawable/main_practice"
                 android:textStyle="bold"
                 android:textSize="40dp"

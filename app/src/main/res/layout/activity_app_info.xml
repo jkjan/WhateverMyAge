@@ -106,6 +106,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textAlignment="center"
             android:text="Copyright(C) 2019 All rights reserved."
             android:layout_marginBottom="30dp"
             >

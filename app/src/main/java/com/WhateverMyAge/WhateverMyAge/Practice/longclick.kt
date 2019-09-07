@@ -10,11 +10,17 @@ import com.bumptech.glide.request.target.GlideDrawableImageViewTarget
 import kotlinx.android.synthetic.main.activity_explanation_fragment.*
 import kotlinx.android.synthetic.main.activity_longclick.*
 
+
+
 class longclick : AppCompatActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_longclick)
+
+
 
         val res = resources
         val gifImage = GlideDrawableImageViewTarget(longclick)
